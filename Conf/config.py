@@ -31,6 +31,7 @@ def _get_all_conf():
 config = _get_all_conf()
 sys_cfg = config['sys']
 smtp_cfg = config['smtp']
+email_cfg = config['email']
 #把Log相关的配置放在一个变量中,方便使用
 log_cfg = config['Log']
 
