@@ -74,3 +74,10 @@ class Email:
 
 
 
+
+
+
+# 邮件初始化时调用方式如下
+# mail = Email(title,context,file)
+# send = mail.send_mail()
+# print(send)
